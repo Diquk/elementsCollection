@@ -1,0 +1,41 @@
+@import "./root/root.css";
+@import "./first-page/first-page.css";
+@import "./first-page/__content/first-page__content.css";
+@import "./first-page/__img/first-page__img.css";
+@import "./main-head/main-head.css";
+@import "./main-head/__nav/main-head__nav.css";
+@import "./navigation/__item/navigation__item.css";
+@import "./apple-logo/apple-logo.css";
+@import "./apple-logo/__img/apple-logo__img.css";
+@import "./navigation/navigation.css";
+@import "./search-form/__input/search-form__input.css";
+@import "./main-article/main-article.css";
+@import "./main-article/__title/main-article__title.css";
+@import "./main-article/__text/main-article__text.css";
+@import "./button/button.css";
+@import "./second-page/__img/second-page__img.css";
+@import "./second-page/__notes/second-page__notes.css";
+@import "./second-page/__content/second-page__content.css";
+@import "./note/note.css";
+@import "./note/__title/note__title.css";
+@import "./div-dot/div-dot.css";
+@import "./note/__dots/note__dots.css";
+@import "./note/__learn-more/note__learn-more.css";
+@import "./third-page/third-page.css";
+@import "./main-article/__title/_white/main-article__title_white.css";
+@import "./main-article/__text/_white/main-article__text_white.css";
+@import "./second-page/second-page.css";
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-size: 18px;
+    line-height: 1.5em;
+    font-family: "Roboto", sans-serif;
+}

@@ -1,0 +1,6 @@
+.div-dot {
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.3);
+}

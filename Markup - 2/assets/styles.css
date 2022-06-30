@@ -1,0 +1,93 @@
+*,
+*::after,
+*::before{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(img/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    font-size: 18px;
+    font-family: Roboto, sans-serif;
+}
+.root{
+    width:400px;
+    height: 410px;
+    background-color: #fff;
+    margin: 100px auto;
+    padding: 30px;
+}
+
+.ticket__head{
+    padding-top: 20px;
+    margin-bottom: 50px;
+
+}
+
+.ticket__route{
+    display: flex;
+    justify-content: space-between;
+}
+
+.ticket__route_big{
+    text-transform: uppercase;
+    font-family: Prompt, sans-serifs;
+    color: #3b8acf;
+    font-size: 3rem;
+    line-height: 2.5rem;
+}
+
+.ticket__route_small{
+    text-transform: uppercase;
+    color:#c4c0bf;
+    font-size: 0.9rem;
+}
+.ticket__dash{
+    opacity: 50%;
+}
+
+.ticket__cell span{
+    display: block;
+}
+
+.ticket__coordinats{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 65px;
+    margin-bottom: 20px;
+}
+
+.ticket__meta{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.ticket__personal-data{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.ticket__property{
+    text-transform: uppercase;
+    color:#c4c0bf;
+    font-size: 0.8rem;
+}
+
+.ticket__value{
+    font-weight: 500;
+}
+
+.ticket__qr{
+    
+}
+
+.ticket__qr img{
+    width: 155px;
+}
+

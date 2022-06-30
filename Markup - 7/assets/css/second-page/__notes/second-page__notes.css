@@ -1,0 +1,4 @@
+.second-page__notes {
+    display: flex;
+    justify-content: space-between;
+}

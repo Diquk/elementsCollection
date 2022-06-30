@@ -1,0 +1,12 @@
+.search-form__input {
+    --text-color: rgba(0, 0, 0, 0.7);
+    width: 200px;
+    border: none;
+    border-bottom: 1px solid var(--text-color);
+    font-size: 1em;
+    color:var(--text-color);
+}
+
+.search-form__input:focus {
+    outline: none;
+}

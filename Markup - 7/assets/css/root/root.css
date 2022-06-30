@@ -1,0 +1,6 @@
+.root {
+  padding: 0 15%;
+  max-width: 1500px;
+  min-width: 100%;
+  overflow: hidden;
+}

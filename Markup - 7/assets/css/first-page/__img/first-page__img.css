@@ -1,0 +1,6 @@
+.first-page__img {
+  position: absolute;
+  z-index: -1;
+  top: 150px;
+  right: -50%;
+}

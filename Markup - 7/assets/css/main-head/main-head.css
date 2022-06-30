@@ -1,0 +1,6 @@
+.main-head {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 20px 0;
+}

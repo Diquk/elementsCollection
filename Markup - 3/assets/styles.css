@@ -1,0 +1,123 @@
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+}
+
+@media (max-width:1500px){
+    .sign-up-card__image{
+        display: none;
+    }
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #4d515d;
+    font-family: Roboto, sans-serif;
+    font-size: 18px;
+}
+
+.root{
+    margin: 70px auto;
+    width: min-content;
+}
+
+.sign-up-card{
+    max-width: 1500px;
+    min-width: 600px;
+    height: 750px;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sign-up-card__image{
+    margin: 0;
+}
+
+.sign-up-card__image img{
+    min-width: 200px;
+    max-width: 500px;
+}
+
+.sign-up-card__info{
+    width: 600px;
+    margin-left: 60px;
+    margin-right: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.sign-up-card__head{
+    margin-top: 80px;
+}
+
+.sign-up-card__headline{
+    font-size: 3rem;
+    font-weight: 400;
+    margin: 0;
+}
+
+.sign-up-card__note{
+    margin:0;
+    font-size: 0.9rem;
+    color:#a7a7a7;
+}
+
+.sign-up-card__methods{
+    margin-top: 60px;
+}
+
+.sign-up-card__method{
+    border: 1px solid #a7a7a740;
+    border-radius: 5px;
+    margin-top: 30px;
+}
+
+.sign-up-card__method:hover{
+    box-shadow: 10px 10px 14px 6px #b7b7a450;
+    border: none;
+}
+
+.sign-up-method{
+    height:70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    cursor: pointer;
+}
+
+.sign-up-method__icon{
+    width:30px;
+    position: absolute;
+    left: 20px;
+}
+
+.sign-up-method__text{
+    text-transform: uppercase;
+    color:#a7a7a7;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.sign-up-email{
+    cursor: pointer;
+    text-transform: uppercase;
+    color:#a7a7a7;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.sign-up-email:hover{
+    color:#000000;
+}
+
+.sign-up-card__email{
+    margin-top: auto;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

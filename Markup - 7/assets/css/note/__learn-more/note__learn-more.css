@@ -1,0 +1,22 @@
+.note__learn-more {
+    --learn-color: #ea625c;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 0.9em;
+    color: var(--learn-color);
+}
+
+.note__learn-more::before {
+    content: " ";
+    display: block;
+    margin-right: 1em;
+    width: 2.2em;
+    border-top: 2px solid var(--learn-color);
+}
+
+.note__learn-more:hover::before {
+    width: 2.8em;
+}
